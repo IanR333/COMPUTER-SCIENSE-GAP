@@ -1,0 +1,21 @@
+C:\Users\Admin\Desktop\bart\citizen-assist-ai\citizen-assist-ai\logica_booleana>python decisao_rg.py
+Citizen Assist AI — documentos para a 2ª via do RG
+Responda com sim ou não. Não informe dados pessoais.
+
+A) Você tem a certidão de nascimento ou de casamento (original ou cópia autenticada)? talvez
+   Não entendi. Responda sim (s / 1) ou não (n / 0).
+A) Você tem a certidão de nascimento ou de casamento (original ou cópia autenticada)? sim
+B) Você tem um comprovante de residência dos últimos 90 dias? s
+C) O RG foi roubado ou furtado? (responda 'não' se foi perdido) não
+
+Entradas: A=1 B=1 C=0 D=0  ->  S=1
+
+Documentação completa: você pode comparecer ao atendimento agendado.
+Leve os documentos originais:
+  1. Certidão de nascimento ou de casamento.
+  2. Comprovante de residência dos últimos 90 dias.
+  3. A declaração de extravio é assinada no próprio balcão (sem boletim).
+Lembre: o agendamento é obrigatório e é feito pelo portal; a taxa é de R$ 38,00.
+
+Fonte: Central do Cidadão de Aurora (fictícia), ficha FC-01 — Carteira de Identidade (RG): primeira e segunda via, versão de 01/10/2026 (consultada em 18/11/2026).
+Aviso: protótipo educacional, não é um canal oficial. Ele não agenda, não consulta cadastro e não garante a emissão do documento. Confirme sempre no portal ou no balcão da Central do Cidadão. Não informe dados pessoais.

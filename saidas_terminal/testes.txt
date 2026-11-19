@@ -1,0 +1,36 @@
+C:\Users\Admin\Desktop\bart\citizen-assist-ai\citizen-assist-ai\logica_booleana>python testes_decisao.py
+linha | A B C D | ficha original mintermos maxtermos simplif. DeMorgan programa | ok
+    0 | 0 0 0 0 |   0      0        0         0        0        0        0    | OK
+    1 | 0 0 0 1 |   0      0        0         0        0        0        0    | OK
+    2 | 0 0 1 0 |   0      0        0         0        0        0        0    | OK
+    3 | 0 0 1 1 |   0      0        0         0        0        0        0    | OK
+    4 | 0 1 0 0 |   0      0        0         0        0        0        0    | OK
+    5 | 0 1 0 1 |   0      0        0         0        0        0        0    | OK
+    6 | 0 1 1 0 |   0      0        0         0        0        0        0    | OK
+    7 | 0 1 1 1 |   0      0        0         0        0        0        0    | OK
+    8 | 1 0 0 0 |   0      0        0         0        0        0        0    | OK
+    9 | 1 0 0 1 |   0      0        0         0        0        0        0    | OK
+   10 | 1 0 1 0 |   0      0        0         0        0        0        0    | OK
+   11 | 1 0 1 1 |   0      0        0         0        0        0        0    | OK
+   12 | 1 1 0 0 |   1      1        1         1        1        1        1    | OK
+   13 | 1 1 0 1 |   1      1        1         1        1        1        1    | OK
+   14 | 1 1 1 0 |   0      0        0         0        0        0        0    | OK
+   15 | 1 1 1 1 |   1      1        1         1        1        1        1    | OK
+
+Combinações equivalentes: 16/16 (tabela salva em resultados_testes.csv)
+
+test_modo_interativo_com_erros_e_acerto (__main__.TestEntradas.test_modo_interativo_com_erros_e_acerto) ... ok
+test_modo_interativo_desiste_apos_3_invalidas (__main__.TestEntradas.test_modo_interativo_desiste_apos_3_invalidas) ... ok
+test_orientacao_rejeita_valor_fora_de_0_1 (__main__.TestEntradas.test_orientacao_rejeita_valor_fora_de_0_1) ... ok
+test_perda_nao_pergunta_boletim (__main__.TestEntradas.test_perda_nao_pergunta_boletim) ... ok
+test_respostas_invalidas_dao_mensagem_amigavel (__main__.TestEntradas.test_respostas_invalidas_dao_mensagem_amigavel) ... ok
+test_respostas_validas (__main__.TestEntradas.test_respostas_validas) ... ok
+test_16_combinacoes_equivalentes (__main__.TestEquivalencia.test_16_combinacoes_equivalentes) ... ok
+test_mintermos (__main__.TestEquivalencia.test_mintermos) ... ok
+test_o_que_falta_coincide_com_S_negado (__main__.TestEquivalencia.test_o_que_falta_coincide_com_S_negado) ... ok
+test_toda_saida_tem_fonte_data_e_aviso (__main__.TestEquivalencia.test_toda_saida_tem_fonte_data_e_aviso) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.005s
+
+OK

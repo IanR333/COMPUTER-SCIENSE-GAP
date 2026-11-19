@@ -1,0 +1,13 @@
+C:\Users\Admin\Desktop\bart\citizen-assist-ai\citizen-assist-ai\logica_booleana>python decisao_rg.py
+Citizen Assist AI — documentos para a 2ª via do RG
+Responda com sim ou não. Não informe dados pessoais.
+
+A) Você tem a certidão de nascimento ou de casamento (original ou cópia autenticada)?
+   Você não digitou nada. Responda sim ou não.
+A) Você tem a certidão de nascimento ou de casamento (original ou cópia autenticada)? 123.456.789-09
+   Parece um dado pessoal. Não informe números de documento, telefone ou e-mail. Responda só sim ou não.
+A) Você tem a certidão de nascimento ou de casamento (original ou cópia autenticada)? aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+   Resposta muito longa. Responda só sim ou não.
+
+Vamos parar por aqui. Quando quiser, comece de novo respondendo sim ou não.
+Aviso: protótipo educacional, não é um canal oficial. Ele não agenda, não consulta cadastro e não garante a emissão do documento. Confirme sempre no portal ou no balcão da Central do Cidadão. Não informe dados pessoais.
